@@ -40,18 +40,18 @@ Please follow the installation documented on the dedicated [repo][5]
 ### PCB 
 
 **Top side**
-<img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK-top.jpg" alt="PCB Top">    
+<img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK831-top.jpg" alt="PCB Top">    
 
 **Bottom side**
-<img src="https://raw.githubusercontent.com/hallard/RAK831-Zeroo/master/pictures/PiZero-RAK-bot.jpg" alt="PCB Bottom">    
+<img src="https://raw.githubusercontent.com/hallard/RAK831-Zeroo/master/pictures/PiZero-RAK831-bot.jpg" alt="PCB Bottom">    
 
 ### Assembled PCB 
 
 **Top side**
-<img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK-top-assembled.jpg" alt="PCB Top Assembled">    
+<img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK831-top-assembled.jpg" alt="PCB Top Assembled">    
 
 **Bottom side**
-<img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK-bot-assembled.jpg" alt="PCB Bottom Assembled">    
+<img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK831-bot-assembled.jpg" alt="PCB Bottom Assembled">    
 
 You can order the PCB of this board at [PCBs.io][3].
 PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order boards for a discounted price, so if you don't care about PCB manufacturer please use PCBs.io.
