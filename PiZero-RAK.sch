@@ -4485,7 +4485,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <wire x1="-31.75" y1="-7.62" x2="76.835" y2="-7.62" width="0.3048" layer="94" style="shortdash"/>
-<text x="113.03" y="-14.605" size="3.81" layer="94" ratio="12">RAK831 Headers</text>
+<text x="100.33" y="-14.605" size="3.81" layer="94" ratio="12">RAK831 Headers</text>
 <wire x1="76.835" y1="-7.62" x2="86.995" y2="-7.62" width="0.3048" layer="94" style="shortdash"/>
 <wire x1="86.995" y1="-7.62" x2="165.1" y2="-7.62" width="0.3048" layer="94" style="shortdash"/>
 <wire x1="165.1" y1="-7.62" x2="165.1" y2="-81.28" width="0.3048" layer="94" style="shortdash"/>
@@ -4494,7 +4494,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="76.835" y1="76.2" x2="76.835" y2="-7.62" width="0.3048" layer="94" style="shortdash"/>
 <text x="201.93" y="-12.7" size="3.81" layer="94" ratio="12" align="center">Serial &amp; Button</text>
 <wire x1="165.1" y1="76.2" x2="165.1" y2="-7.62" width="0.3048" layer="94" style="shortdash"/>
-<text x="123.19" y="72.39" size="3.81" layer="94" ratio="12" align="center">GPIO LED</text>
+<text x="124.46" y="71.755" size="3.81" layer="94" ratio="12" align="center">LEDs</text>
 <text x="208.28" y="69.85" size="3.81" layer="94" ratio="12" align="center">Sensors / Grove
 connectors</text>
 <wire x1="86.995" y1="-7.62" x2="86.995" y2="-101.6" width="0.3048" layer="94" style="shortdash"/>
