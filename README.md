@@ -21,10 +21,10 @@ Then I decided to add some funky stuff like:
 
 ## Detailed Description
 
-No specific documentation for now, it's just a kind of wiring helper, please see Gateway section on [TTN Wiki][13] and also on [TTN Forums][14] for more information on these gateways.
+No specific documentation for now, it's just a kind of wiring helper, please see Gateway section on [TTN Learn](https://www.thethingsnetwork.org/docs/gateways/) and also on [TTN Forums](https://www.thethingsnetwork.org/forum/t/the-hard-rak831-cafe-part-2/10576/) for more information on these gateways.
 
 You can power the board with 5V going to Raspberry PI USB power directly, in this case use a descent power supply.
-You can also use "basic" POE with injector and splitter, this is what I do to oustide (I inject 12V) and use the Murata DC/DC Step down to 5V (in this case cut the trace on bottom side of PCB)
+You can also use "basic" POE with injector and splitter, this is what I do to oustide (I inject 12V) and use the Murata DC/DC Step down to 5V (in this case cut the trace on bottom side of PCB that connect Vin to 5V (vout))
 
 ## Software Installation
 
@@ -43,7 +43,7 @@ Please follow the installation documented on the dedicated [repo][5]
 <img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK831-top.jpg" alt="PCB Top">    
 
 **Bottom side**
-<img src="https://raw.githubusercontent.com/hallard/RAK831-Zeroo/master/pictures/PiZero-RAK831-bot.jpg" alt="PCB Bottom">    
+<img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK831-bot.jpg" alt="PCB Bottom">    
 
 ### Assembled PCB 
 
