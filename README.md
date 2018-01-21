@@ -63,6 +63,9 @@ PCBs.io give me some reward when you order my designed boards from their site. T
 With the samtec connector you can put the PI Zero on top or bottom, depending on your choice, just solder the sametec connector to the PCB side you need.
 <img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK831-shielded.jpg" alt="Fully assembled and in nice enclosure with sensors">     
 
+And here it is near to [The things node](https://www.thethingsnetwork.org/docs/devices/node/).
+<img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/RAK831_Zero_Gateway.jpg" alt="Fully assembled with the things node">     
+
 
 ## Bill Of Material
 
