@@ -23,13 +23,33 @@ Then I decided to add some funky stuff like:
 
 No specific documentation for now, it's just a kind of wiring helper, please see Gateway section on [TTN Learn](https://www.thethingsnetwork.org/docs/gateways/) and also on [TTN Forums](https://www.thethingsnetwork.org/forum/t/the-hard-rak831-cafe-part-2/10576/) for more information on these gateways.
 
-You can power the board with 5V going to Raspberry PI USB power directly, in this case use a descent power supply.
-You can also use "basic" POE with injector and splitter, this is what I do to oustide (I inject 12V) and use the Murata DC/DC Step down to 5V (in this case cut the trace on bottom side of PCB that connect Vin to 5V (vout))
+### Power
+
+You can power the board with 5V going to Raspberry PI USB power directly or connecting 5V to the terminal blocks named VIN/GND, in this case use a descent 5V power supply. 
+
+You can also use a Murata DC/DC Step down (see BOM), in this case you can power the board from DC 7V to 36V, this is what I do each time. To use this feature you need to cut the trace on bottom side of PCB that connect VIN to 5V (vout)).
+
+<img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK-DCDC.png" alt="Cut Trace to Power with DC DC Step Down">    
+
+### Pushbutton
+
+The push button is connected between 3V3 and GPIO17. GPIO17 has a 10K pull down to ground so when pressed GPIO17 become High. The button can be soldered on board, or connected to the Terminal Blocks if you want to put an external one if you have the board in a closed enclosure for example.
+
+<img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK-switch.png" alt="Cut Trace to Power with DC DC Step Down">    
+
+Push button management is done my the monitoring service installed by the setup below
+
+### LEDs
+
+Led management is done my the monitoring service installed by the setup below, see the readm.me
 
 ## Software Installation
 
-Please follow the installation documented on the dedicated [repo][5]
+Please follow the installation documented on the dedicated [repository][5] to install all needed and functionnal software:
 
+- Initial configuration
+- Multi Protocol Packet Forwarder
+- Monitoring service (Led and Push Button)
 
 ## Schematics
 
@@ -60,7 +80,7 @@ PCBs.io give me some reward when you order my designed boards from their site. T
 
 <img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK831-case.jpg" alt="Fully assembled and in nice enclosure with sensors">     
 
-With the samtec connector you can put the PI Zero on top or bottom, depending on your choice, just solder the sametec connector to the PCB side you need.
+With the samtec connector you can put the PI Zero on top or bottom, depending on your choice, just solder the sametec connector to the PCB side you need. You can also avoid connector soldering the PI directly on the board.
 <img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK831-shielded.jpg" alt="Fully assembled and in nice enclosure with sensors">     
 
 And here it is near to [The things node](https://www.thethingsnetwork.org/docs/devices/node/).
