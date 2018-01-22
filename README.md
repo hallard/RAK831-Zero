@@ -41,7 +41,7 @@ Push button management is done my the monitoring service installed by the setup 
 
 ### LEDs
 
-Led management is done my the monitoring service installed by the setup below, see the readm.me
+Led management is done my the monitoring service installed by the setup below
 
 ## Software Installation
 
