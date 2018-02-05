@@ -8,6 +8,15 @@ Then I decided to add some funky stuff like:
 
 ## Features (tested, working fine)
 
+**Minor tweaks in V1.3b**
+
+ - Reversed side of Murata OKI-78SR-5 to let some place for big OLED
+ - Changed solder pad default power to use DC/DC 
+ - Inversed the 2 OLED connectors to better seeing of RAK LED
+ - Adjusted opening to see RAK LED to a better position
+
+**Since V1.3**
+
  - Push button on GPIO17 to be able to shutdown PI Locally
  - Added FTDI connector to be able to take hand on PI console when in enclosure (lost network or whatever, no more need to get all off the enclosure and connect HDMI cable to see what's going on)
  - Added footprint for excellent Murata OKI-78SR-5 DC/DC 5V
@@ -27,7 +36,7 @@ No specific documentation for now, it's just a kind of wiring helper, please see
 
 You can power the board with 5V going to Raspberry PI USB power directly or connecting 5V to the terminal blocks named VIN/GND, in this case use a descent 5V power supply. 
 
-You can also use a Murata DC/DC Step down (see BOM), in this case you can power the board from DC 7V to 36V, this is what I do each time. To use this feature you need to cut the trace on bottom side of PCB that connect VIN to 5V (vout)).
+You can also use a Murata DC/DC Step down (see BOM), in this case you can power the board from DC 7V to 36V, this is what I do each time. ~~To use this feature you need to cut the trace on bottom side of PCB that connect VIN to 5V (vout)~~. Since V1.3b+ the trace ifs not connected anymore. This means that Vin and Vout are not connected anymore. So if you don't use DC/DC dans powering with 5V, you need to put some solder on the pad to connect vout to vin (5V).
 
 <img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK-DCDC.png" alt="Cut Trace to Power with DC DC Step Down">    
 
