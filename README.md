@@ -85,7 +85,7 @@ Please follow the installation documented on the dedicated [repository][5] to in
 **Bottom side**
 <img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK831-bot-assembled.jpg" alt="PCB Bottom Assembled">    
 
-You can order the PCB of this board at [PCBs.io][3].
+You can order the PCB of this board at PCBs.io, [V1.3][3] or [V1.3b][4]. 
 PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order boards for a discounted price, so if you don't care about PCB manufacturer please use PCBs.io.
 
 ## Assembled boards into nice enclosure 
@@ -121,6 +121,7 @@ See news and other projects on my [blog][1]
  
 [1]: https://hallard.me
 [3]: https://PCBs.io/share/rpqDd
+[4]: https://PCBs.io/share/z722g
 
 [5]: https://github.com/ch2i/LoraGW-Setup
 [10]: http://www.rakwireless.com/en/WisKeyOSH/RAK831
