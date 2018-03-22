@@ -99,6 +99,12 @@ And here it is near to [The things node](https://www.thethingsnetwork.org/docs/d
 <img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/RAK831_Zero_Gateway.jpg" alt="Fully assembled with the things node">     
 
 
+## Video of all
+
+Click on image to see the video
+[![CH2i RAK831 GW](http://img.youtube.com/vi/AZTomPGSOBY/0.jpg)](https://www.youtube.com/watch?v=AZTomPGSOBY "CH2i RAK831 GW")
+
+
 ## Bill Of Material
 
 Nothing fancy, all components are 0805 and/or PTH and can be ordered almost anywhere (digikey, mouser, radiospare, ...). 
