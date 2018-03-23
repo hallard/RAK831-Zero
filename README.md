@@ -8,6 +8,14 @@ Then I decided to add some funky stuff like:
 
 ## Features (tested, working fine)
 
+**Minor tweaks in V1.4**
+
+ - Labeling error on top silk for Murata OKI-78SR-5 (VIN VOUT were revesed) but correct on bottom silk
+ - Added solder bat to be able to reverse 3V3/GND and/or SCL/SDA on I2C-1 connector 
+ - Moved FTDI connector to lower position
+ - Added I2C connector SILK number to identify them better
+ - Added a LED on GPIO4 to light when GW is off so we can remove power safely
+
 **Minor tweaks in V1.3b**
 
  - Reversed side of Murata OKI-78SR-5 to let some place for big OLED
@@ -85,7 +93,12 @@ Please follow the installation documented on the dedicated [repository][5] to in
 **Bottom side**
 <img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK831-bot-assembled.jpg" alt="PCB Bottom Assembled">    
 
-You can order the PCB of this board at PCBs.io, [V1.3][3] or [V1.3b][4]. 
+You can order the PCB of this board at PCBs.io 
+
+- [V1.3][3] (obsolete)
+- [V1.3b][4] (obsolete)
+- [V1.4][6] Lastest one
+
 PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order boards for a discounted price, so if you don't care about PCB manufacturer please use PCBs.io.
 
 ## Assembled boards into nice enclosure 
@@ -129,6 +142,7 @@ See news and other projects on my [blog][1]
 [1]: https://hallard.me
 [3]: https://PCBs.io/share/rpqDd
 [4]: https://PCBs.io/share/z722g
+[6]: https://PCBs.io/share/4qKoO
 
 [5]: https://github.com/ch2i/LoraGW-Setup
 [10]: http://www.rakwireless.com/en/WisKeyOSH/RAK831
