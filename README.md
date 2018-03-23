@@ -99,6 +99,10 @@ You can order the PCB of this board at PCBs.io
 - [V1.3b][4] (obsolete)
 - [V1.4][6] Lastest one
 
+Please not that there is special PCB version (not released yet) that fit in an indoor enclosure like the ones you can find on ebay. Search on ebay for `100x68x50mm IP66 Waterproof` or `100x68x50mm IP66 Waterproof clear` to find them.
+- [V1.3][7] For outdoor enclosure (smaller PCB)
+
+
 PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order boards for a discounted price, so if you don't care about PCB manufacturer please use PCBs.io.
 
 ## Assembled boards into nice enclosure 
@@ -143,6 +147,7 @@ See news and other projects on my [blog][1]
 [3]: https://PCBs.io/share/rpqDd
 [4]: https://PCBs.io/share/z722g
 [6]: https://PCBs.io/share/4qKoO
+[7]: https://PCBs.io/share/zvYLj
 
 [5]: https://github.com/ch2i/LoraGW-Setup
 [10]: http://www.rakwireless.com/en/WisKeyOSH/RAK831
