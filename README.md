@@ -11,12 +11,15 @@ Then I decided to add some funky stuff like:
 **Major updates in V1.5**
 
  - Added connector to put a [Tiny GPS][46] breakout board 
-<img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/Tiny_GPS.png" alt="Tiny GPS Breakout">    
  - Added switch/jumpers to select PI Serial to be connected to FTDI connector or from GPS RX/TX
  - Added footprint for RTS (when used in local LoRaWAN server without Internet connexion)
  - Added a LED on ~~GPIO4~~ GPIO26 to light when GW is off so we can remove power safely (or whatever purpose)
  - Connected GPS PPS signal on GPIO4 and added a LED on this signal
  - **due to space constraints because of new features, some options to put PTH components have been removed**
+
+Tiny GPS breakout board
+ <img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/Tiny_GPS.png" alt="Tiny GPS Breakout"> 
+ Buy [there][46]    
 
 **Minor tweaks in V1.4**
 
@@ -90,12 +93,12 @@ Please follow the installation documented on the dedicated [repository][5] to in
 ### PCB 
 
 **Top side**
-<img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK831-top.jpg" alt="PCB Top">    
+<img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK831-V15-top.png" alt="RAK831 Zero Shield V1.5 PCB Top">    
 
 **Bottom side**
-<img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK831-bot.jpg" alt="PCB Bottom">    
+<img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK831-V15-bot.png" alt="RAK831 Zero Shield V1.5 PCB Bottom">    
 
-### Assembled PCB 
+### Assembled PCB (V1.3)
 
 **Top side**
 <img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/PiZero-RAK831-top-assembled.jpg" alt="PCB Top Assembled">    
