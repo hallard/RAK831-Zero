@@ -12,7 +12,7 @@ Then I decided to add some funky stuff like:
 
  - Added connector to put a [Tiny GPS][46] breakout board 
  - Added switch/jumpers to select PI Serial to be connected to FTDI connector or from GPS RX/TX
- - Added footprint for RTS (when used in local LoRaWAN server without Internet connexion)
+ - Added footprint for RTC (when used in local LoRaWAN server without Internet connexion)
  - Added a LED on ~~GPIO4~~ GPIO26 to light when GW is off so we can remove power safely (or whatever purpose)
  - Connected GPS PPS signal on GPIO4 and added a LED on this signal
  - **due to space constraints because of new features, some options to put PTH components have been removed**
