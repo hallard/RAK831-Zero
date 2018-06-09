@@ -17,14 +17,6 @@ Then I decided to add some funky stuff like:
  - Connected GPS PPS signal on GPIO4 and added a LED on this signal
  - **due to space constraints because of new features, some options to put PTH components have been removed**
 
-Tiny GPS breakout board
- <img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/Tiny_GPS.png" alt="Tiny GPS Breakout"> 
- Buy [there][46]    
-
-Tiny Adafruit RTC board
- <img src="https://cdn-shop.adafruit.com/970x728/3295-03.jpg"> 
- Buy [there][47]    
-
 **Minor tweaks in V1.4**
 
  - Labeling error on top silk for Murata OKI-78SR-5 (VIN VOUT were revesed) but correct on bottom silk
@@ -52,6 +44,15 @@ Tiny Adafruit RTC board
  - Easy to build and solder, 0805 or PTH components
  - Holes to fix board on enclosure or other support
  - quick fix connector, you can plug/unplug PI Zero without soldering
+
+
+Tiny GPS breakout board, buy [there][46]   
+<img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/Tiny_GPS.png" alt="Tiny GPS Breakout"> 
+  
+
+Tiny Adafruit RTC board, buy [there][47]    
+
+<img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/Tiny_RTC.png" alt="RTC Breakout"> 
 
 ## Detailed Description
 
