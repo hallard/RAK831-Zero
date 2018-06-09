@@ -8,11 +8,11 @@ Then I decided to add some funky stuff like:
 
 ## Features (tested, working fine)
 
-**Major updates in V1.5**
+**Major updates in V1.5a**
 
  - Added connector to put a [Tiny GPS][46] breakout board 
  - Added switch/jumpers to select PI Serial to be connected to FTDI connector or from GPS RX/TX
- - Added footprint for RTC (when used in local LoRaWAN server without Internet connexion)
+ - Added footprint for RTC components or [Adafruit Breakout][47] (when used in local LoRaWAN server without Internet connexion)
  - Added a LED on ~~GPIO4~~ GPIO26 to light when GW is off so we can remove power safely (or whatever purpose)
  - Connected GPS PPS signal on GPIO4 and added a LED on this signal
  - **due to space constraints because of new features, some options to put PTH components have been removed**
@@ -20,6 +20,10 @@ Then I decided to add some funky stuff like:
 Tiny GPS breakout board
  <img src="https://raw.githubusercontent.com/hallard/RAK831-Zero/master/pictures/Tiny_GPS.png" alt="Tiny GPS Breakout"> 
  Buy [there][46]    
+
+Tiny Adafruit RTC board
+ <img src="https://cdn-shop.adafruit.com/970x728/3295-03.jpg"> 
+ Buy [there][47]    
 
 **Minor tweaks in V1.4**
 
@@ -111,7 +115,7 @@ You can order the PCB of this board at PCBs.io
 - [V1.3][3] (obsolete)
 - [V1.3b][4] (obsolete)
 - [V1.4][6] 
-- [V1.5][8] Lastest one
+- [V1.5a][8] Lastest one
 
 Please not that there is special PCB version (not released yet) that fit in an indoor enclosure like the ones you can find on ebay. Search on ebay for `100x68x50mm IP66 Waterproof` or `100x68x50mm IP66 Waterproof clear` to find them.
 - [V1.3][7] For outdoor enclosure (smaller PCB)
@@ -169,4 +173,5 @@ See news and other projects on my [blog][1]
 [44]: https://www.ebay.com/itm/162036913864?var=461005633671
 [45]: http://www2.mouser.com/ProductDetail/Murata-Power-Solutions/OKI-78SR-5-15-W36H-C/?qs=sGAEpiMZZMt6Q9lZSPl3Rb6uckMsyldgZf%2f4GdkUxM8%3d
 [46]: http://www.electrodragon.com/product/gnss-module-atgm336h/
+[47]: https://www.adafruit.com/product/3295
 
