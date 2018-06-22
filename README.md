@@ -147,7 +147,7 @@ Click on image to see the video
 Nothing fancy, all components are 0805 and/or PTH and can be ordered almost anywhere (digikey, mouser, radiospare, ...). 
 use only what you need dependings on what you want to do. You can find lot of components on ebay or aliexpress, but since vendors are often ephemere, I put for reference the BOM on well known providers.
 
-Here is the [octopart BOM](https://octopart.com/bom-tool/SJPhS5Am)
+Here is the [octopart BOM](https://octopart.com/bom-tool/bSeZiAE7)
 
 If you have good reference for standoff like [this][44], just let me know.
 
